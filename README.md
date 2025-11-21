@@ -16,17 +16,30 @@ Write a function that performs:
 
 **Input:**  
 specialCipher("AABCCC", 3)
-
 **Output:**  
-
-
 D2EF3
 
 ### **Approach**
 - First rotate each alphabet by `rot` positions.  
 - Then compress repeating characters using RLE.  
 
-Caesar Cipher ke baad wali string + RLE ka compressed result milkar final output dete hain.
+# ✔️ **2. Optimized 6-Unit Denomination Finder
+
+This script finds the most optimal set of **6 currency units** (denominations) such that
+the **average number of coins** required to form all values from **1 to 99** is minimized.
+
+### 🔍 Approach (Short)
+- Always include `1` (to guarantee all values can be formed).
+- Use Dynamic Programming to compute the minimum coins needed for values `1–99`.
+- Try multiple combinations of 6 denominations.
+- Compute average coins required for each set.
+- Choose the set with the lowest average.
+```bash
+Best Denomination Set: (1, 3, 8, 15, 40, 50)
+Average Coins: 3.21
+```
+
+---
 # 🛒 MERN E-Commerce Platform
 
 A fully functional **Amazon-style eCommerce** system built using the MERN Stack with Admin Dashboard, JWT Authentication, Product Management, Orders, Cart, Coupons, Inventory Tracking, and Swagger API documentation.
