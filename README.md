@@ -21,9 +21,9 @@ D2EF3
 
 ### **Approach**
 - First rotate each alphabet by `rot` positions.  
-- Then compress repeating characters using RLE.  
-
-# ✔️ **2. Optimized 6-Unit Denomination Finder
+- Then compress repeating characters using RLE.
+---
+# ✔️ **2. Optimized 6-Unit Denomination Finder**
 
 This script finds the most optimal set of **6 currency units** (denominations) such that
 the **average number of coins** required to form all values from **1 to 99** is minimized.
