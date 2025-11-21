@@ -1,0 +1,3 @@
+Write a special cipher that is a combination of Caesar’s cipher followed by a simple
+RLE. The function should receive a string and the rotation number as parameters.
+Input: special Cipher(“AABCCC”, 3) Output: D2EF3
