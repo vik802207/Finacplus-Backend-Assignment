@@ -1,5 +1,5 @@
 # FinacPlus Software Intern – Coding Assignment  
-**Date:** 12 Jan 2021  
+**Date:** 21 Nov 2025
 **Candidate:** Vikash Gupta  
 
 This repository contains solutions to the FinacPlus Software Internship Coding Task Challenge.  
